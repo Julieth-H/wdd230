@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+body {
+    margin: auto;
+    max-width: 800px;
+    border: 5px solid rgb(235, 83, 149);
+    font-family:'Montserrat', sans-serif;
+}
+
+header {
+    background-color: rgb(193, 186, 189);
+    display: grid;
+    grid-template-columns: 400px 1fr;
+
+}
+header img {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+header h1 {
+    grid-column: 2;
+    grid-row: 1;
+    font-weight: 700;
+    margin: auto;
+}
+
+main h1{
+    font-weight: 400;
+    text-align: center;
+}
+
+main ul {
+    line-height: 2em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+footer {
+    background-color: rgb(235, 83, 149);
+    padding: 25px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 0.75em;
+}
