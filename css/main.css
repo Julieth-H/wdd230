@@ -1,8 +1,9 @@
-@import font-family: 'Montserrat', sans-serif;
-font-family: 'Open Sans', sans-serif; 
-body {
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+body{ 
     margin: auto;
-    max-width: 800px;
+    max-width: 700px;
     border: 5px solid rgb(235, 83, 149);
     font-family:'Montserrat', sans-serif;
 }
