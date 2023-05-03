@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans:wght@700&family=Roboto&display=swap');
+
+
 body {
     margin: 0 auto;
     background-color: #f6dce9;
-    border-color: #4215f3;
+    border-color: #04284c;
     padding: 10px;
-    box-shadow: 4px 4px 4px #03488d;
+    box-shadow: 4px 4px 4px #04284c;
     border-style: outset;
     border: 2px ridge #04284c;
     border-radius: 18px;
@@ -14,6 +17,7 @@ main {
     grid-template-columns: 1fr;
     grid-column: span 3;
     grid-gap: 20px;
+    
 }
 
 header {
@@ -21,11 +25,13 @@ header {
     border-radius: 20px;
 }
 
-h1 {color: white;
+h1 {
+    color: white;
     text-align: center;
     font-family: Montserrat;
     padding: 10px 0;
     margin: 5px;
+    
 }
 
 h2 {
@@ -37,7 +43,8 @@ h2 {
 
 }
 
-img {
+img
+ {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -45,7 +52,8 @@ img {
    
 }
 
-p {
+p
+ {
     color: #033668;
     font-family: "Montserrat', sans-serif";
     font-weight:metalic;
@@ -55,7 +63,7 @@ p {
 
 a {
     color: #032446;
-    font-family: "roboto condensed", Arial, Helvetica, sans-serif;
+    font-family: "roboto, Montserrat";
     font-weight: bolder;
     font-size: large;
 }
@@ -75,7 +83,7 @@ back-button {
  font-size: 18px;
  letter-spacing: 1px;
  text-decoration: none;
- color: #09c0ee;
+ color: #011418;
  background: transparent;
  cursor: pointer;
  transition: ease-out 0.5s;
