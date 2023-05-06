@@ -1,7 +1,0 @@
-let currentDate = document.lastModified;
-document.querySelector('#lastUpdated').textContent = currentDate;
-
-
-let date = new Date();
-let year = date.getFullYear();
-document.querySelector('#copyrightYear').innerHTML = year;

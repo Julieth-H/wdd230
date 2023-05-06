@@ -1,0 +1,93 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Comme&family=Montserrat:wght@300&family=Noto+Sans&family=Open+Sans:wght@700&family=Roboto&display=swap');
+
+  html {
+	background-color: #81b29a;
+  }
+  body {
+	max-width: 900px;
+	margin: 0 auto;
+	background-color:whitesmoke;
+	padding: 1em;
+  }
+  
+  
+  h1, h2  {
+	font-family: comme, sans-serif;
+	color: var( #3d405b);
+  }
+  header,footer{
+	padding: 1em;
+	text-align: center;
+	color: var(White);
+	background-color: #F2CC8F;
+    font-family:Montserrat ;
+  }
+  header > h1, header > h2 {
+	color:var(black); 
+  }
+  
+  p {
+	font-family: monserrat, sans-serif;
+	color: var #3d405b;
+	padding: 1em;
+  }
+  
+  .colors {
+	width: 100%;
+	min-width: 350px;
+	margin: auto;
+	text-align: center;
+  }
+  .colors th {
+	background-color: #999;
+  
+  }
+  
+	.logo {
+		width: 150px;
+	   position: relative;
+ border-radius:  25px;
+	  box-shadow: 2px 6px 12px rgba(3, 5, 5, 6.15);
+   background-color: #bee0ec;
+   }
+   nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 1;
+    overflow: hidden;
+}
+
+nav ul li a {
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 0.70rem;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+   nav {
+	background-color:  #F4f1de;
+	line-height: 3em;
+	text-align: center;
+	font-size: 1.2em;
+    font-family:noto, sans-serif;
+  }
+  nav > ul {
+	list-style-type: none;
+	display: flex;
+  
+  }
+  nav a {
+	padding:1em;
+	min-width: 70px;
+  }
+  nav a:link, nav a:visited {
+	color: var(--nav-link-color);
+  }
+  nav a:hover {
+	color: var(--nav-hover-link-color);
+	background-color: var(--nav-hover-background-color);
+  }
+  
