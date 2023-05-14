@@ -20,7 +20,8 @@ img {
     display: block;
   margin-left: auto;
   margin-right: auto;
-    
+ overflow-clip-margin: content-box;
+  overflow: clip;   
 }
 
 
