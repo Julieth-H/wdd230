@@ -119,7 +119,7 @@ nav ul.open {
 
 /**-------------------------------------------------social Icons----------------------------------------------------------------**/
 
-    social {
+ social {
     display: flex;
     justify-content:right;
     width: 9.5rem;
@@ -156,11 +156,11 @@ p{
 .weather{
     grid-area: 3 / 1 / 5 / 2;
     background-color: #F4F1DE;
+    font-family: "comme, sans-serif";
 }
 .weather p{
     display: flex;
     justify-content: center;
-    color:rgb(46, 27, 27);
     margin: -1.79rem;
 }
 
@@ -168,6 +168,8 @@ p{
     grid-area: 5 / 1 / 7 / 2;
     background-color: #F4F1DE;
     padding: 5px;
+    font-family: "comme, sans-serif";
+
 }
 .join p{
     margin-top: 10%;
@@ -189,11 +191,12 @@ p{
     grid-area: 1 / 4 / 3 / 5;
     background-color: #F4F1DE;
     padding-bottom: 3rem;
+    font-family: "comme, sans-serif";
 }
 
 .spot1 p{
 
-    padding: 5px;
+    padding: 6px;
 }
 
 
@@ -201,6 +204,7 @@ p{
     grid-area: 3 / 4 / 5 / 5;
     background-color: #F4F1DE;
     padding-bottom: 3rem;
+    font-family: "comme, sans-serif";
 }
 .spot2 p{
     padding: 5px;
@@ -211,6 +215,7 @@ p{
     grid-area: 5 / 4 / 7 / 5;
     background-color: #F4F1DE;
     padding-bottom: 3rem;
+    font-family: "comme, sans-serif";
 
 }
 
@@ -225,12 +230,12 @@ footer{
     width: 100vw;
     color: rgb(222, 205, 205);
     position: relative;
-
+    padding: 1%;
 }
 .footer-content{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     flex-direction: column;
     text-align: center;
 }
