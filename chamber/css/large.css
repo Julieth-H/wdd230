@@ -42,11 +42,11 @@
     }
     .news{
         grid-area: 4 / 1 / 5 / 2;
-        background-color: rgb(177, 170, 170);
+        background-color: rgb(209, 228, 177);
     }
     .spot1{
         grid-area: 5 / 1 / 6 / 2;
-        background-color: rgb(177, 170, 170);
+        background-color: rgb(209, 228, 177);
         
     }
     .spot1 p{
