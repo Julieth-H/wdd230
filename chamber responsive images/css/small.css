@@ -43,7 +43,7 @@ body{
 
 /**-----------------------------------------------Banner----------------------------------------------------------------**/
 banner {
-    height: 10px; ;
+   
     background-color: rgb(217, 187, 125);
     color: rgb(21, 33, 102);
     padding: 2px;
@@ -97,7 +97,7 @@ nav ul li a {
 }
 nav ul li a:hover {
     background-color:#E07A5F;
-    color: #F2CC8F;
+  
 }
 nav ul {
     display: none;
@@ -120,13 +120,7 @@ nav ul.open {
 }
 
 /**-----------------------------------------------Hamburguer Menu-----------------------------------------------------------------**/
-.enlace{
-    position: absolute;
-    padding: 20px 50px;
-    margin-top: 5px;
-    width: 1px;
-    height: 1px;
-}
+
 
 
 #check{
@@ -137,7 +131,6 @@ nav ul.open {
 
   social img {
     display: flex;
-    float: right;
     width: 6.5rem;
     margin: 0 auto;
     padding: 2rem;
@@ -149,18 +142,20 @@ nav ul.open {
 /**--------------------------------------------------Main Content----------------------------------------------------------------**/
 .wrapper{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-    grid-column-gap: 2px;
-    grid-row-gap: 2px;
-    height: calc(100vh - 80px);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 1px;
+    grid-row-gap: 1px;
+    border: #E07A5F;
+    border: 5px solid;
+    
     font-size:medium;
 }
 p{
     text-align: center;
 }
 .event{
-    grid-area: 1 / 1 / 3 / 2; 
+    grid-area: 1 / 1 / 3/ 2; 
     background-color: #F4F1DE;
     padding: 3px;
     border:#020122
@@ -168,7 +163,7 @@ p{
 }
 .event p,h3{
     text-align: center;
-    margin-top: 5%;
+    margin-top: 2%;
     font-family:"Montserrat";
     font-style: oblique;
     text-align:center;
@@ -176,21 +171,22 @@ p{
 }
 /*weather*/
 .weather{
-    grid-area: 3 / 1 / 5 / 2;
+    grid-area: 3/ 1 / 5 / 2;
     background-color: #F4F1DE;
     font-family: "comme, sans-serif";
     font-size:medium;
+    height: calc(40vh - 40x);
 
 
 }
 .weather p{
     display: flex;
     justify-content:auto; 
-    margin:.5rem;
-    padding-bottom:.5rem;
+    margin:.2rem;
+    padding-bottom:.2rem;
     font-family:"Montserrat";
     font-size:small;
-    justify-content:right ;
+    justify-content:center ;
 
 }
 
@@ -199,22 +195,16 @@ p{
    justify-content:left;
    width:230px;
    margin:0 auto;
-   padding: 1rem;
-   margin-left:5rem;
-   position: relative;
+   padding: 1px;
+   margin-left:2rem;
+   float:left;
 
 }
 
 
 
-
-
-
-  
-
-
 .join{
-    grid-area: 5 / 1 / 7 / 2;
+    grid-area: 5/ 1 / 7/ 2;
     background-color: #F4F1DE;
     padding: 2px;
     font-family: "comme, sans-serif";
@@ -228,7 +218,7 @@ p{
 }
     
 .hero, img{
-    grid-area: 1 / 2 / 5 / 4;
+    grid-area: 1 / 2 / 5/ 4;
     
     
 
@@ -242,8 +232,9 @@ p{
     background-color: #F4F1DE;
 }
 .news p{
-    margin-top: 6rem;
+    margin-top: 2rem;
     font-family:comme;
+    padding: 2rem; ;
 }
 .spot1  {
     grid-area: 1 / 4 / 3 / 5;
@@ -256,17 +247,18 @@ p{
 
 .spot1 p{
 
-    padding: 5px;
+    padding: 2rem;
 }
 
 .spot1 img {
    display:flex;
    justify-content:center;
-   width:230px;
+   width:250px;
    margin:0 auto;
-   padding: 1rem;
-   margin-left:5rem;
+   padding: -1rem;
+   margin-left:2rem;
    position: relative;
+   
 
 
  }
@@ -275,12 +267,12 @@ p{
 .spot2{
     grid-area: 3 / 4 / 5 / 5;
     background-color: #F4F1DE;
-    padding-bottom: 3rem;
+    padding-bottom: 1rem;
     font-family: "comme, sans-serif";
 
 }
 .spot2 p{
-    padding: 6px;
+    padding: 2px;
 }
 
 .spot2 img {
@@ -289,7 +281,7 @@ p{
     width:250px;
     margin:0 auto;
     padding: 1rem;
-    margin-left:4rem;
+    margin-left:2rem;
     position: relative;
 }
  
@@ -298,7 +290,7 @@ p{
 .spot3{
     grid-area: 5 / 4 / 7 / 5;
     background-color: #F4F1DE;
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
     font-family: "comme, sans-serif";
 
 }
@@ -308,8 +300,8 @@ p{
     justify-content:center;
     width:250px;
     margin:0 auto;
-    padding: 1rem;
-    margin-left:4rem;
+    padding:1px;
+    margin-left:3rem;
     position: relative;
 }
 
@@ -320,11 +312,11 @@ footer{
     justify-content:left;
     flex-wrap:nowrap;
     background:#3D405B; ;
-    height:min-content;
+   
     width: 100vw;
     color: rgb(222, 205, 205);
     position:relative;
-    padding: 20px;
+    padding: 2px;
 }
 .footer-content{
     display: flex;
@@ -352,11 +344,14 @@ main picture.test img {
   }
   .hero {
     position: relative;
-    padding: 0px;
+    padding: 2px;
+    background-color: #F4F1DE;
   }
   
   .hero img {
-    object-fit: cover;
+    object-fit:fill;
+
+
   }
 
   .call-to-action {
@@ -377,13 +372,13 @@ main picture.test img {
 
   
     .hero-banner{
-        position:absolute;
-        bottom:15px;
+        position:relative;
+        bottom:1px;
         left: 15px;
         font-weight: bold;
-        color: white;
-        padding-top:20px;
-        margin: top 6px; ;
+        color:black;
+        padding-top:2px;
+        margin:0;
 
     }
   

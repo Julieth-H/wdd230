@@ -206,12 +206,6 @@ p{
 
 
 
-
-
-
-  
-
-
 .join{
     grid-area: 5 / 1 / 7 / 2;
     background-color: #F4F1DE;
@@ -229,9 +223,6 @@ p{
 .hero, img{
     grid-area: 1 / 2 / 5 / 4;
     
-    
-
-
 
 
 }
@@ -241,7 +232,7 @@ p{
     background-color: #F4F1DE;
 }
 .news p{
-    margin-top: 6rem;
+    margin-top: 2rem;
     font-family:comme;
 }
 .spot1  {
@@ -261,7 +252,7 @@ p{
 .spot1 img {
    display:flex;
    justify-content:center;
-   width:230px;
+   width:210px;
    margin:0 auto;
    padding: 1rem;
    margin-left:5rem;
@@ -285,7 +276,7 @@ p{
 .spot2 img {
     display:flex;
     justify-content:center;
-    width:250px;
+    width:210px;
     margin:0 auto;
     padding: 1rem;
     margin-left:4rem;
@@ -305,9 +296,9 @@ p{
 .spot3 img {
     display:flex;
     justify-content:center;
-    width:250px;
+    width:210px;
     margin:0 auto;
-    padding: 1rem;
+    padding: 2rem;
     margin-left:4rem;
     position: relative;
 }
@@ -319,18 +310,18 @@ footer{
     justify-content:left;
     flex-wrap:nowrap;
     background:#3D405B; ;
-    height:min-content;
-    width: 100vw;
+    height:fit-content;
+    width: 50vw;
     color: rgb(222, 205, 205);
     position:relative;
-    padding: 20px;
+    padding: 10px;
 }
 .footer-content{
-    display: flex;
-    align-items:center;
-    justify-content:end;
+    display:block;
+    align-items:right;
+   
     flex-direction:row;
-    text-align:center;
+    text-align:right;
 }
 
  footer-contact {
