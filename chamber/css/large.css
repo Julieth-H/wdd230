@@ -20,7 +20,7 @@
         height: calc(100vh - 80px);
     }
     .event{
-        grid-area: 2 / 1 / 3 / 2; 
+        grid-area: 1/ 1 / 2/ 2; 
         background-color: rgb(177, 170, 170);
     }
     .weather{
@@ -43,6 +43,8 @@
     .news{
         grid-area: 4 / 1 / 5 / 2;
         background-color: rgb(209, 228, 177);
+        margin-bottom: auto;
+        text-align: center;
     }
     .spot1{
         grid-area: 5 / 1 / 6 / 2;
@@ -125,3 +127,12 @@
   }
 
 }
+
+
+
+
+/*----Discovery Page-------*/
+
+
+
+
