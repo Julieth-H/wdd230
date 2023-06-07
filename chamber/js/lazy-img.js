@@ -1,8 +1,10 @@
 
+"use strict";
+
 let imagesToLoad = document.querySelectorAll('img[data-src]');
 
 const imageOptions = {
-    threshold: 1,
+    threshold: 3,
     rootMargin: '0px 0px 50px 0px'
 };
 

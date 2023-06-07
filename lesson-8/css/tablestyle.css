@@ -1,0 +1,67 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Arimo:wght@700&family=EB+Garamond:ital,wght@0,600;1,500&family=Lato:wght@700&family=Montserrat:wght@300&family=Noto+Sans&family=Open+Sans:wght@400;700&display=swap');
+/* Apply a modern and clean overall style */
+body {
+    font-family: Arial, sans-serif;
+    background-color: hsl(339, 67%, 86%);
+    margin: 0;
+    padding: 20px;
+  }
+  
+  /* Style the table */
+  table {
+    width: 50%;
+    background-color:#97d8f1;
+    box-shadow: 8px 8px 8px rgba(36, 211, 50, 0.1);
+    
+  }
+  
+  /* Style the table caption */
+  .caption {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #333;
+   
+  }
+  
+  /* Style the table header */
+  thead th {
+    background-color: #b3b3b8;  
+    padding:10px;
+    text-align:center;
+  }
+  
+  /* Style alternating rows with different background colors */
+  tbody tr:nth-child(even) {
+    background-color:rgb(236, 240, 170);
+    
+  }
+  
+  /* Style the table cells */
+  td {
+    padding: 10px;
+  }
+  
+  /* Add hover effect to table rows */
+  tbody tr:hover {
+    background-color: #e7dddd;
+  }
+  
+  /* Style the table footer */
+  tfoot {
+    font-style:oblique;
+    color: #847784;
+    padding-top: 10px;
+  }
+  
+  /* Add media queries for responsiveness */
+  @media (max-width: 700px) {
+    table {
+      font-size: 14px;
+    }
+    
+    .caption {
+      font-size: 20px;
+    }
+  }

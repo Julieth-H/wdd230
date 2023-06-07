@@ -119,19 +119,15 @@
          align-items:center;
          box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
      }
-      /*Directory*/
-      .grid-cards{
-       display: grid;
-       grid-template-columns: repeat(2, 1fr);
-       padding-bottom: 5rem;
-        }
-       .main-dir {
-          padding-bottom: 5rem;
-       }
-      
-     
- }
-
-
- /*----Discovere Page-----*/
-
+   
+/*discover page*/
+.media-card {
+   width: 100%;
+   transition: ease-in-out 0.3s;;
+   transform: scale(0.9);
+   text-align: center;
+}
+.media-card:hover {
+   transform: scale(1.02);
+}
+}
