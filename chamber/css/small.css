@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Comme&family=Montserrat:wght@300&family=Noto+Sans&family=Open+Sans:wght@700&family=Roboto&display=swap');
 :root {
     --primary-color: #81B29A;
-    --secondary-color: (21, 33, 102);
-    --accent1-color:  #F2CC8F;
+    --secondary-color:#(21,33,102);
+    --accent1-color:  #090f7c;
     --accent2-color: #E07A5F;
 }
 
@@ -33,16 +33,17 @@ nav{
 /**-----------------------------------------------Body----------------------------------------------------------------**/
 }
 body{
-    background-color: #81B29A;
+    background-color: #88ab9a;
     font-family: "comme, sans-serif";
     font-weight: bold;
-    color: #0c0a34;
+   /* color: #d3d3d7;*/
     text-align: center;
+  
 }
 
 
 /**-----------------------------------------------Banner----------------------------------------------------------------**/
-banner {
+/*banner {
    
     background-color: rgb(217, 187, 125);
     color: rgb(21, 33, 102);
@@ -52,7 +53,7 @@ banner {
     font-size: 10px;
     
 }
-
+*/
 
 
 
@@ -109,7 +110,7 @@ nav ul.open {
 
 /**-----------------------------------------------Logo-----------------------------------------------------------------**/
 
-#logo img{
+/*#logo img{
     display: flex;
     justify-content: left;
     width: 8.5rem;
@@ -118,7 +119,7 @@ nav ul.open {
     margin-left: 1rem;
     box-shadow: 2px 6px 9px rgba(3, 5, 5, 6.15);
 }
-
+*/
 /**-----------------------------------------------Hamburguer Menu-----------------------------------------------------------------**/
 
 
@@ -128,16 +129,9 @@ nav ul.open {
 }
 
 /**-------------------------------------------------social Icons----------------------------------------------------------------**/
-
-  social img {
-    display: flex;
-    width: 6.5rem;
-    margin: 0 auto;
-    padding: 2rem;
-    margin-right: 2rem;
-    justify-content: right;
-
-       
+.social img {
+  height: 30px;
+  margin-right: 10px;
 }
 /**--------------------------------------------------Main Content----------------------------------------------------------------**/
 .wrapper{
@@ -308,26 +302,59 @@ p{
 
 /**--------------------------------------------------Footer-----------------------------------------------------------**/
 footer{
-    display: flex;
-    justify-content:left;
-    flex-wrap:nowrap;
-    background:#3D405B; ;
-   
-    width: 100vw;
-    color: rgb(222, 205, 205);
-    position:relative;
-    padding: 2px;
+  display: flex;
+  /*justify-content:left;*/
+  flex-wrap:nowrap;
+  background-color: #81B29A;
+  
+  padding: 20px;
+  text-align: right;
+
+ 
+  width: 100vw;
+  color: rgb(12, 12, 12);
+  position:relative;
+  padding: 6px;
 }
 .footer-content{
-    display: flex;
-    align-items:center;
-    justify-content:end;
-    flex-direction:row;
-    text-align:center;
+  display: flex;
+ align-items:center;
+ /* justify-content:end;*/
+  flex-direction:row;
+
 }
 
- footer-contact {
-   color:#E07A5F;
+
+
+
+ 
+ 
+
+
+.footer-logo img {
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.footer h2 {
+  margin-bottom: 10px;
+}
+
+.footer p {
+  margin-bottom: 5px;
+}
+
+.footer-contact p {
+  margin-bottom: 0;
+}
+
+.footer-contact a {
+ 
+  text-decoration:double;
+}
+
+.footer-content {
+  margin-top: 20px;
 }
 
 /**-------------- image ----------------**/
@@ -386,98 +413,180 @@ main picture.test img {
 
  /* ------------------------Discover page -------------------------*/   
 
-
-/* -----Lazy Load Effect-------- */
-main.discover picture img[data-src] {
-    opacity: 0;
-    visibility: hidden;
-}
-main.discover picture img{
-    -webkit-transition: 3s linear;
-    transition: 1s linear;
-}
-/* -----Discover Page Section-------- */
-/* .discover-heading {
-    background-color: #EEEE;
+  /* Main discover styles */
+ .discover-head {
     text-align: center;
-    padding: 1rem;
-}
-.greeting {
-    padding-bottom: 1rem; */
-
-/* ----Discover Media Card------ */
-
-/* main.discover picture img[data-src] {
-    opacity: 0;
-    visibility: hidden;
-}
-main.discover picture img{
-    -webkit-transition: 1s linear;
-    transition: 1s linear;
-}
-
-.media-card  {
-    width: 300px;
-    overflow: hidden;
-    box-shadow: 2px 2px 5px 5px #171717;
-    margin: 1.5rem;
-    margin-bottom: 2rem;
-    height:auto ;
-    background-color:antiquewhite;
-
-}
-.discover-article {
-    padding: 1rem;
-    text-align:center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size:large
-}
-.discover-article p {
-    padding-top: 1rem;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: medium;
-    font-stretch: normal;
-}
-.main{
-background-color:#F4F1DE;
-}
- branson-history {
-    justify-content:left;
-    font-family: sans-serif;
- }
-
- .discover{
-    display:grid;
- }
-
-
-  */
-
-
-  /*-----------------------------------Discover------------------*/
-
-       .discover {
-  display: grid;
-  
-} 
-
-.discover-picture {
-  display: none;
-}
-
-.discover picture img {
-  width: 300px;
-  height: auto;
-}
-.daysOfVisit
-{
-    grid-column: 1/2;
-    max-width: 1200px;
-   margin: 0 auto;
-     color:white;
+    margin-top: 30px;
   }
-  .daysOfVisit{
- 
-    font-weight: bold;
+  
+  .discover-card {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .discover-card picture,
+  .discover-card article {
+    background-color: #525252;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .discover-card picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .discover-card picture img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .discover-card article h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .discover-card article p {
     font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  
+  
+  /* Lazy-loaded image styles */
+  .lazy-img {
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+  }
+  
+  .lazy-img-loaded {
+    opacity: 5;
+  }
+
+
+ /* -----  Join----------------*/
+
+
+ 
+  h1, h2 {
+    margin: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header Styles */
+ header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  #logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  #logo img {
+    height: 100px;
+    margin-right: 16px;
+  }
+  
+  #logo h1 {
+    font-size: 24px;
+  }
+  
+  
+  
+  nav {
+    margin-top: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+  }
+  
+  /* Main Content Styles */
+ .main-content {
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .form-container {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .form-container p {
+    margin-bottom: 10px;
+  }
+  
+  .form-container img {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .form-container form {
+    margin-top: 20px;
+  }
+  
+  .form-container label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .form-container input,
+  .form-container textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .form-container input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  
+  
+  /* Media Queries */
+  @media screen and (max-width: 768px) {
+    #logo h1 {
+      font-size: 20px;
+    }
+  
+    .title {
+      font-size: 24px;
+    }
+  
+    footer h2 {
+      font-size: 18px;
+    }
   }

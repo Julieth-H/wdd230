@@ -126,4 +126,21 @@
   .discover-card h2 p{
   color: blue;
   }
+  
+
+/*------------join-----------*/
+.form-container {
+	width: 900px;  
+	padding: 20px;
+	background-color: #209, 228, 177;
+	border-radius: 5px;
+	
   }
+  
+  .join-branson-mo {
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+  }
+   
+    }
