@@ -33,29 +33,13 @@ nav{
 /**-----------------------------------------------Body----------------------------------------------------------------**/
 }
 body{
-    background-color: #88ab9a;
+    background-color:#81B29A;
     font-family: "comme, sans-serif";
     font-weight: bold;
     /*color: #3D405B;*/
     text-align: center;
   
 }
-
-
-/**-----------------------------------------------Banner----------------------------------------------------------------**/
-/*banner {
-   
-    background-color: rgb(217, 187, 125);
-    color: rgb(21, 33, 102);
-    padding: 2px;
-    text-align: center;
-    font-family: "Montserrat", serif;
-    font-size: 10px;
-    
-}
-*/
-
-
 
 
 
@@ -106,23 +90,6 @@ nav ul {
 nav ul.open {
     display: block;
 }
-
-
-/**-----------------------------------------------Logo-----------------------------------------------------------------**/
-
-/*#logo img{
-    display: flex;
-    justify-content: left;
-    width: 8.5rem;
-    margin: 0 auto;
-    padding: 1rem;
-    margin-left: 1rem;
-    box-shadow: 2px 6px 9px rgba(3, 5, 5, 6.15);
-}
-*/
-/**-----------------------------------------------Hamburguer Menu-----------------------------------------------------------------**/
-
-
 
 #check{
     display: none;
@@ -410,15 +377,15 @@ main picture.test img {
   }
   
   .discover-card {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
     padding: 20px;
   }
   
   .discover-card picture,
   .discover-card article {
-    background-color:#81B29A;
+    background-color:#F4F1DE;
     padding: 15px;
     text-align: center;
   }
@@ -437,12 +404,15 @@ main picture.test img {
   .discover-card article h2 {
     font-size: 18px;
     margin-bottom: 10px;
-  
+    font-family:Roboto ;
+  color:#111111;
   }
   
   .discover-card article p {
     font-size: 16px;
     line-height: 1.5;
+    font-family:Montserrat ;
+    color: #020122;
   }
   
   
@@ -454,7 +424,7 @@ main picture.test img {
   }
   
   .lazy-img-loaded {
-    opacity: 5;
+    opacity: 8;
   }
 
 
@@ -464,19 +434,21 @@ main picture.test img {
  
   h1, h2 {
     margin: 0;
+    font-family:Montserrat, sans-serif;
+
    
   }
   
   .container {
     max-width: 1200px;
-    margin: 0 auto;
+    margin:auto;
     padding: 20px;
   }
   
   /* Header Styles */
  header {
-    background-color: #333;
-    color: #fff;
+    background-color:#2d2d2e;
+    color:#fff;
     padding: 20px;
   }
   
@@ -585,98 +557,114 @@ main picture.test img {
       font-size: 18px;
     }
   }
-/*-----------------------DIRECTORY---------*/
-directory main {
-	margin: 0 auto;
-	padding: 0.5rem;
-	max-width: 700px;
-	background-color:#F4F1DE;
-	font-family:comme;
-}
 
-.menu {
-	margin: 1rem auto;
-	border: 1px solid rgba(0, 0, 0, 0.1);
-	padding: 0.5rem;
-	background-color:var(--primary-color);
-	text-align: center;
-}
 
-.menu button {
-	padding: 1rem;
-	font-weight:700;
-}
+/**********************************************DIRECTORY**************************/
 
-section {
-	border: 1px solid rgba(0, 0, 0, 0.1);
-	padding: 0.5rem;
-	background-color:#F4F1DE;
-}
-
-.grid {
-	display: grid;
-	/*grid-template-columns: repeat(auto-fit, minmax(75px, 1fr));*/
-  grid-template-columns: 2fr 1fr; ;
-	grid-gap: 2px;
-	align-items: center;
-}
-
-.grid section {
-	text-align: center;
-  grid-template-columns: 1fr 1fr;
+main directory {
+  margin: 20px auto;
   padding: 20px;
-  margin: 12px;
+  background-color:#020122;
+} 
+
+main .menu {
+  margin-bottom: 10px;
 }
 
-.grid img {
-	border: 3px solid #E07A5F;
-	box-shadow: 0 0 10px #080303;
-  margin: 25px auto;
-  width: 100px;
+main button {
+  margin-right:15px;
+  padding: 10px 10px;
+  font-size:20px;
+  background-color:#E07A5F;
+  border:#111111;
+  cursor:pointer;
+}
+
+main hr {
+  margin: 20px 0;
+  border: none;
+  border-top: 4px solid #111111;
+}
+
+main article.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-gap:40px;
+  
+}
+
+main article.grid section {
+  background-color:#F4F1DE;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow:4px 4px 4px;
+}
+
+main article.grid section img {
+  width:50%;
+  height:auto;
+  border-radius:10px;
+  
+}
+
+main article.grid section h3 {
+  margin-top: 10px;
+  font-size: 18px;
+  font-family:Montserrat,sans-serif;
+}
+
+main article.grid section p {
+  margin-top: 5px;
+  font-size: 14px;
+  font-family:comme; 
+}
+
+main article.grid section a {
+ display:inline-block;
+  margin-top: 5px;
+  padding: 5px 5px;
+  font-size: 14px;
+  color:#111111;
+  background-color:#E07A5F;
+  text-decoration:wavy;
+  border-radius: 8px;
+}
+
+main article.grid section a:hover {
+  background-color:#E07A5F;
 }
 
 
-.grid section > * {
-	margin: 0.1rem;
-}
-
-.grid h3 {
-	font-family:comme;
-}
 
 .list {
-	display: flex;
+	display:inline-table;
 	flex-direction:column-reverse;
 
 
 }
 
 .list section {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	display:flex;
+	grid-template-columns: 0fr 1fr 1fr;
 	margin: 0;
 	padding: 0.25rem;
 }
 
 .list section > * {
-	margin: 0 1rem;
+	margin: 1rem;
 }
 
 .list section img {
-	display:none; 
-  
-   
+	display:none;
   }
   
-
-
 .list section h3 {
 	font-size: 1rem;
-	font-family: Roboto, Helvetica, sans-serif;
+	font-family:Roboto;
 }
 
 .list section:nth-child(even) {
-	background-color:#E07A5F;
+	background-color:#F4F1DE;
 }
 
 section h3 {
@@ -694,11 +682,3 @@ section a {
 	color: rgb(10, 10, 10);
 	letter-spacing: 1.1pt;
 }
-
-
-
-
-
-/* Styles for the main content section */
-
-

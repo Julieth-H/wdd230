@@ -1,0 +1,63 @@
+/*Styling for the temperature display*/
+#current-temp {
+    font-size: 32px;
+    font-weight: bold;
+    color:blue;
+   
+    
+
+  
+  }
+  
+  /* Styling for the weather icon */
+  #weather-icon {
+    width: 100px;
+    height: 100px;
+  
+  }
+  
+  /* Styling for the weather description */
+  /* figcaption {
+    font-style: italic;
+
+    * {
+        margin: 0;
+        box-sizing: border-box;
+    
+ /*Header*/   
+  
+  header {
+    background-color:antiquewhite;
+    text-align: center;
+    padding: 0.80rem;
+
+  }
+
+  /* Example of additional styling for the page */
+  body {
+    background-color:ivory;
+    font-family:Arial, Helvetica, sans-serif;
+    height: 100%;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 40px; 
+  }
+  
+  h1 {
+    text-align: center;
+    color:cornflowerblue;
+  }
+  
+  h2 {
+    margin-top: 40px;
+    color:darkgoldenrod;
+   
+  }
+  
+  
+  footer {
+    background-color:antiquewhite;
+    text-align: center;
+    padding: 0.80rem;
+}
+  
