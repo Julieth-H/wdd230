@@ -131,7 +131,7 @@ p{
     
 }
 /*weather*/
-.weather{
+ .weather{
     grid-area: 3/ 1 / 5 / 2;
     background-color: #F4F1DE;
     font-family: "comme, sans-serif";
@@ -146,22 +146,25 @@ p{
     margin:.2rem;
     padding-bottom:.2rem;
     font-family:"Montserrat";
-    font-size:small;
+    font-size:medium;
     justify-content:center ;
 
 }
 
 .weather icon-img{
-    display:flex;
+    display:contents;
    justify-content:left;
-   width:230px;
+   width: 500px;
    margin:0 auto;
    padding: 1px;
    margin-left:2rem;
    float:left;
 
-}
+} 
 
+
+
+ 
 
 
 .join{
@@ -342,10 +345,10 @@ main picture.test img {
   .call-to-action {
    
     background-color:#E07A5F;
-   position: absolute;
+   position:static;
     font-weight: bold;
     font-size: 16px;
-    padding-top:12px;
+    padding-top:8px;
    bottom: 10px;
     right: 15px;
     padding: 12px;
