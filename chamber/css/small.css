@@ -422,8 +422,8 @@ main picture.test img {
   
   /* Lazy-loaded image styles */
   .lazy-img {
-    opacity: 0;
-    transition: opacity 0.5s ease-in;
+    opacity:initial;
+    transition: opacity 0.8s ease-in;
   }
   
   .lazy-img-loaded {
@@ -651,6 +651,7 @@ main article.grid section a:hover {
 	grid-template-columns: 0fr 1fr 1fr;
 	margin: 0;
 	padding: 0.25rem;
+;
 }
 
 .list section > * {
