@@ -564,7 +564,7 @@ main picture.test img {
 
 /**********************************************DIRECTORY**************************/
 
-main directory {
+/*main directory {
   margin: 20px auto;
   padding: 20px;
   background-color:#020122;
@@ -603,8 +603,8 @@ main article.grid section {
   box-shadow:4px 4px 4px;
 }
 
-main article.grid section img {
-  width:50%;
+main article.grid section logo {
+  width:100%;
   height:auto;
   border-radius:10px;
   
@@ -636,7 +636,7 @@ main article.grid section a {
 main article.grid section a:hover {
   background-color:#E07A5F;
 }
-
+*/
 
 
 .list {
@@ -685,4 +685,48 @@ section a {
 	font-size: 0.85rem;
 	color: rgb(10, 10, 10);
 	letter-spacing: 1.1pt;
+}
+
+
+
+
+.list {
+	display: flex;
+	flex-direction: column;
+}
+
+.list h2{
+  font-size: 1em;
+}
+
+.list section {
+	display: flex;
+  flex-direction: column;
+	margin-top: 0;
+  margin-bottom: 0;
+	padding: 0.25rem;
+  font-size: small;
+  height: fit-content;
+  border: none;
+  align-items: center;
+  text-align: center;
+  width: 95%;
+}
+
+.list section logo {
+	display: none;
+}
+
+.list section:nth-child(odd) {
+	background-color:#F4F1DE;
+}
+
+a {
+  text-decoration: none;
+  font-family: var(--paragraph-font);
+  color: var(--accent1-color);
+}
+
+.grid a {
+  font-size: .7rem;
 }

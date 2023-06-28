@@ -1,9 +1,9 @@
 
 document.addEventListener('DOMContentLoaded', () => {
-  const urlData = "https://julieth-h.github.io/wdd230/chamber/json/data.json";
+  const urldata = "https://julieth-h.github.io/wdd230/chamber/json/data.json";
 
-  async function getbusinessdata(urlData) {
-    const response = await fetch(urlData);
+  async function getbusinessdata(urldata) {
+    const response = await fetch(urldata);
     const data = await response.json();
     return data.business;
 
@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  getbusinessdata(urlData)
+  getbusinessdata(urldata)
     .then((business) => {
       displaybusiness(business);
     });

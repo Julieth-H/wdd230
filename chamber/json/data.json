@@ -2,7 +2,7 @@
 "business": [
     {
       "name": "Branson Zipline at Wolfe Mountain",
-      "logo": "https://static.wixstatic.com/media/a312d4_80eb4859aef64a35bba3f285c472bc61~mv2.png/v1/fill/w_168,h_153,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/WolfeMountainApprovedLogo_BZ%20at%20WM.png",
+      "image": "https://static.wixstatic.com/media/a312d4_80eb4859aef64a35bba3f285c472bc61~mv2.png/v1/fill/w_168,h_153,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/WolfeMountainApprovedLogo_BZ%20at%20WM.png",
       "address": "2339 Highway 65, Walnut Shade, MO 65771",
       "phone":  "(417) 561-0699",
       "category": "Extreme Adventures",
@@ -10,7 +10,7 @@
     },
     {
       "name": "Branson Log Cabin Rentals",
-      "logo": "https://bransonlogcabinrentals.com/wp-content/uploads/2021/10/WeLoveBransonLogCabins-LOGO-WebHeader-Retina.png",
+      "image": "https://bransonlogcabinrentals.com/wp-content/uploads/2021/10/WeLoveBransonLogCabins-LOGO-WebHeader-Retina.png",
       "address": "2201 Roark Valley Rd., Branson, MO 65616",
       "phone": "(417) 335-2247",
       "category": "Cabins Hotels & Lodging",
@@ -19,7 +19,7 @@
   
      {
       "name": "Grand Country Buffet",
-      "logo":"https://assets.website-files.com/59a3254bfdd0390001e0eec4/627ec13a3fe1b5617ec5ee84_grand-country-logo-2022.png",
+      "image":"https://assets.website-files.com/59a3254bfdd0390001e0eec4/627ec13a3fe1b5617ec5ee84_grand-country-logo-2022.png",
       "address": "1945 W 76 Country Blvd, Branson, MO 65616",
       "phone":"(417) 335-2434",
       "category":"Buffets Restaurants & Dining",
@@ -27,7 +27,7 @@
   },
   {  
     "name":"Branson Jet Boats",
-    "logo":"https://lirp.cdn-website.com/63773d37/dms3rep/multi/opt/Jetboat-Logo-Horizontal-Transparent-Retina-334w.png",
+    "image":"https://lirp.cdn-website.com/63773d37/dms3rep/multi/opt/Jetboat-Logo-Horizontal-Transparent-Retina-334w.png",
     "address":"7A North Boardwalk, Branson, MO 65616",
     "phone":" (417) 334-7683",
     "category": "Splashes, Spins, & Adventure!",
@@ -35,7 +35,7 @@
   },
   {
    "name":" WonderWorks",
-   "logo":"https://www.wonderworksonline.com/branson/wp-content/uploads/sites/14/2022/11/ww-branson-mob-2-copy.png  ",
+   "image":"https://www.wonderworksonline.com/branson/wp-content/uploads/sites/14/2022/11/ww-branson-mob-2-copy.png  ",
    "address":"2835 W 76 Country Blvd, Branson, MO 65616 ",
    "phone": "(417) 231-9999 ",
    "category": "Family Attractions Attractions & Museums  ",
@@ -44,7 +44,7 @@
   },
   {
    "name":"J. Howard Fisk Limousines, Inc.",
-   "logo":"https://static.wixstatic.com/media/2f9089_94ca4284b0d34640b2e1096e2c716794.jpg/v1/fill/w_151,h_205,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/2f9089_94ca4284b0d34640b2e1096e2c716794.jpg ",
+   "image":"https://static.wixstatic.com/media/2f9089_94ca4284b0d34640b2e1096e2c716794.jpg/v1/fill/w_151,h_205,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/2f9089_94ca4284b0d34640b2e1096e2c716794.jpg ",
    "address":" 2001 East Trafficway Street, Springfield, MO 65802 ",
    "phone":"  (417) 862-2900  ",
    "category":"Limousines Transportation Shuttles & Transportation Services ",
@@ -53,7 +53,7 @@
   },
   {
    "name":" Silver Dollar City   ",
-   "logo":"https://www.silverdollarcity.com/media/4zknofeu/sdc23_sdc_logo_ozark-mtns_lightbackground-815.png" ,
+   "image":"https://www.silverdollarcity.com/media/4zknofeu/sdc23_sdc_logo_ozark-mtns_lightbackground-815.png" ,
    "address":"399 Silver Dollar City Parkway, Branson, MO 65616   ",
    "phone":" (417) 336-7100  ",
    "category":"Family Attractions & Adventure ",
@@ -62,7 +62,7 @@
   },
   {
    "name": "Creation Experience Museum   ",
-   "logo":"https://creationexperiencemuseum.com/wp-content/uploads/elementor/thumbs/small-logo@4x-oqqkcdif4h9vs5xi0or13u7r2crmx5qvdle9bx4tog.png   " ,
+   "image":"https://creationexperiencemuseum.com/wp-content/uploads/elementor/thumbs/small-logo@4x-oqqkcdif4h9vs5xi0or13u7r2crmx5qvdle9bx4tog.png   " ,
    "address":"4180 US Hwy 65 North, Walnut Shade, MO 65771   ",
    "phone":" (417) 561-0750 ",
    "category":">Museums Attractions & Museums   ",
@@ -72,7 +72,7 @@
   },
   {
    "name": " Hurts Donut Company ",
-   "logo":" https://www.wannahurts.com/wp-content/themes/hurts_donut_2021/images/hurts_logo-2.png  " ,
+   "image":" https://www.wannahurts.com/wp-content/themes/hurts_donut_2021/images/hurts_logo-2.png  " ,
    "address":"1600 State Hwy 76, Branson, MO 65616 ",
    "phone":" (417) 598-3474 ",
    "category":"Bakeries & Desserts Restaurants & Dining   ",
