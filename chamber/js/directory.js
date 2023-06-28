@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     business.forEach((business) => {
       let card = document.createElement('section');
-      let logo = document.createElement('img');
+      let image = document.createElement('image');
       let name = document.createElement('h2');
       let address = document.createElement('p');
       let phone = document.createElement('p');
@@ -23,16 +23,17 @@ document.addEventListener('DOMContentLoaded', () => {
       let website = document.createElement('a');
 
       name.innerHTML = `${business.name}`;
+      image.innerHTML =$`{business.image}`;
       address.innerHTML = `${business.address}`;
       phone.innerHTML = `${business.phone}`;
       website.innerHTML = `${business.website}`;
       website.href = `${business.website}`;
 
-      logo.setAttribute('src', business.imageurl);
-      logo.setAttribute('alt', `Logo of ${business.name}`);
-      logo.setAttribute('loading', 'lazy');
+      image.setAttribute('src', business.imageurl);
+      image.setAttribute('alt', `logo of ${business.name}`);
+      image.setAttribute('loading', 'lazy');
 
-      card.appendChild(logo);
+      card.appendChild(image);
       card.appendChild(name);
       card.appendChild(address);
       card.appendChild(phone);
