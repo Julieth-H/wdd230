@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  getbusinessData(urlData)
+  getbusinessdata(urlData)
     .then((business) => {
       displaybusiness(business);
     });
