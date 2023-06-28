@@ -1,20 +1,19 @@
 
-
+document.addEventListener('DOMContentLoaded', () => {
   const urlData = "https://julieth-h.github.io/wdd230/chamber/json/data.json";
-  async function getdata() {
-    try{
-    const respnse = await fetch(url);
-    const data = await respnse.json();
-    displeycards(data.json);
-    }  catch (error) {
-    console.error('Error:', error);
-  }
-}
 
-  const displayentries = (entries) => {
+  async function getbusinessdata(urlData) {
+    const response = await fetch(urlData);
+    const data = await response.json();
+    return data.business;
+
+ 
+  }
+
+  const displaybusiness = (business) => {
     const grid = document.querySelector('div.grid');
 
-    entries.forEach((company) => {
+    business.forEach((business) => {
       let card = document.createElement('section');
       let logo = document.createElement('img');
       let name = document.createElement('h2');
@@ -23,23 +22,22 @@
       let category = document.createElement('p');
       let website = document.createElement('a');
 
-      name.innerHTML = `${company.name}`;
-      address.innerHTML = `${company.address}`;
-      phone.innerHTML = `${company.phone}`;
-      website.innerHTML = `${company.website}`;
-      website.href = `${company.website}`;
+      name.innerHTML = `${business.name}`;
+      address.innerHTML = `${business.address}`;
+      phone.innerHTML = `${business.phone}`;
+      website.innerHTML = `${business.website}`;
+      website.href = `${business.website}`;
 
-      logo.setAttribute('src', company.imageurl);
-      logo.setAttribute('alt', `Logo of ${company.name}`);
+      logo.setAttribute('src', business.imageurl);
+      logo.setAttribute('alt', `Logo of ${business.name}`);
       logo.setAttribute('loading', 'lazy');
 
       card.appendChild(logo);
       card.appendChild(name);
       card.appendChild(address);
       card.appendChild(phone);
-      card.appendChild(category);
       card.appendChild(website);
-
+      card.appendChild(category);
       grid.appendChild(card);
     });
   }
@@ -62,4 +60,4 @@
     display.classList.remove("grid");
     display.classList.add("list");
   });
-
+});
