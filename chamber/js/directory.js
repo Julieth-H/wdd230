@@ -42,9 +42,9 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  getCompanyData(urlData)
-    .then((companies) => {
-      displayCompanies(companies);
+  getbusinessData(urlData)
+    .then((business) => {
+      displaybusiness(business);
     });
 
   const gridbutton = document.querySelector("#grid");
