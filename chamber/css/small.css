@@ -564,12 +564,14 @@ main picture.test img {
 
 /**********************************************DIRECTORY**************************/
 
-business directory {
+/*business directory {
   margin: 20px auto;
   padding: 20px;
   background-color:#020122;
 } 
-
+ div {
+ displey: block
+}
 main .menu {
   margin-bottom: 10px;
 }
@@ -678,11 +680,13 @@ a {
 
 .grid a {
   font-size: .7rem;
-}
+}*/
 
 /**************************************/
-
-/*business .directory {
+main{
+  background-color: #10100f;
+}
+business .directory {
   display: flex;
   justify-content: center;
   margin-top: 1rem;
@@ -693,13 +697,13 @@ a {
 }
 
 button#grid , button#list{
-  display: flex;
+  display:block;
   align-items: center;
   justify-content: center;
-  margin-right: 1em;
-  width: 40px;
-  height: 40px;
-  border-color: var(--primary-color);
+  margin-right: 3em;
+  width: 50px;
+  height: 50px;
+  border-color:#E07A5F;
 }
 
 button#grid:hover, button#list:hover {
@@ -707,41 +711,42 @@ button#grid:hover, button#list:hover {
 }
 
 button#grid:active, button#list:active {
-  background-color: var(--secondary-color);
+  background-color:#F4F1DE;
 }
 
-button#grid img, button#list img {
-  width: 20px;
+button#grid logo, button#list logo {
+  width: 25px;
   display:center;
 }
 
 div.grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 }
 
 div.grid section {
   display: flex;
   flex-direction: column;
-  margin: 1rem;
-  background-color: var(--accent2-color);
-  box-shadow: 5px 5px 10px #6f7364;
-  transition: transform 0.2s;
+  margin: 2rem;
+  background-color:#F4F1DE;
+  box-shadow: 8px 5px 10px #10100f;
+  transition: transform 0.5s;
   align-items: center;
   justify-content: center;
   text-align: center;
-  border: none;
+  border:#111111;
+
 }
 
 div.grid section:hover {
   transform: scale(1.05);
 }
 
-div.grid img {
+div.grid logo {
   margin-bottom: 1rem;
-  max-width: 40%;
-  max-height: 40%;
-  object-fit: cover;
+  max-width: 10%;
+  /*max-height: 40%;*/
+  object-fit:contain;
 }
 
 div.grid h2 {
@@ -749,10 +754,52 @@ div.grid h2 {
 }
 
 div.grid p {
-  font-size: .7rem;
+  font-size: .9rem;
 }
 
 .directory {
-  margin-bottom: 2em;
+  margin-bottom: 3em;
 }
 
+.list {
+	display:block;
+
+	flex-direction:column;
+}
+
+.list h2{
+  font-size: 1em;
+}
+
+.list section {
+	display: flex;
+  flex-direction: column;
+	margin-top: .5rem;
+  margin-bottom: .5rem;
+	padding: 0.20rem;
+  font-size: small;
+  height:min-content;
+  border:#10100f;
+  align-items: center;
+  text-align: center;
+ /* width:100%;*/
+}
+
+/*.list section logo {
+	display:none
+
+}*/
+
+.list section:nth-child(odd) {
+	background-color:#F4F1DE;
+}
+
+a {
+  text-decoration: none;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color:#111111;
+}
+
+.grid a {
+  font-size: .7rem;
+}
