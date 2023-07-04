@@ -205,6 +205,9 @@ p{
     font-size:medium ;
 }
 
+
+
+
 .spot1 p{
 
     padding: 2rem;
@@ -423,7 +426,7 @@ main picture.test img {
   /* Lazy-loaded image styles */
   .lazy-img {
     opacity:initial;
-    transition: opacity 0.8s ease-in;
+    transition: opacity 0.2s ease-in;
   }
   
   .lazy-img-loaded {
@@ -435,7 +438,7 @@ main picture.test img {
 
 
  
-  h1, h2 {
+ h1, h2 {
     margin: 0;
     font-family:Montserrat, sans-serif;
 
@@ -443,7 +446,7 @@ main picture.test img {
   }
   
   .container {
-    max-width: 1200px;
+    max-width: 400px;
     margin:auto;
     padding: 20px;
   }
@@ -455,19 +458,19 @@ main picture.test img {
     padding: 20px;
   }
   
-  #logo {
+/*  #logo {
     display: flex;
     align-items: center;
   }
-  
-  #logo img {
-    height: 100px;
+  */
+   img join {
+    height: 300px;
     margin-right: 16px;
   }
   
-  #logo h1 {
+ /* #logo h1 {
     font-size: 24px;
-  }
+  }*/
   
   
   
@@ -547,7 +550,7 @@ main picture.test img {
   
   
   /* Media Queries */
-  @media screen and (max-width: 768px) {
+ @media screen and (max-width: 768px) {
     #logo h1 {
       font-size: 20px;
     }
@@ -562,138 +565,22 @@ main picture.test img {
   }
 
 
+
+
+
+
 /**********************************************DIRECTORY**************************/
-
-/*business directory {
-  margin: 20px auto;
-  padding: 20px;
-  background-color:#020122;
-} 
- div {
- displey: block
-}
-main .menu {
-  margin-bottom: 10px;
-}
-
-main button {
-  margin-right:15px;
-  padding: 10px 10px;
-  font-size:20px;
-  background-color:#E07A5F;
-  border:#111111;
-  cursor:pointer;
-}
-
-main hr {
-  margin: 20px 0;
-  border: none;
-  border-top: 4px solid #111111;
-}
-
-main article.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  grid-gap:40px;
-  
-}
-
-main article.grid section {
-  background-color:#F4F1DE;
-  padding: 10px;
-  border-radius: 15px;
-  box-shadow:4px 4px 4px;
-}
-
-main article.grid section logo {
-  width:100%;
-  height:auto;
-  border-radius:10px;
-  
-}
-
-main article.grid section h3 {
-  margin-top: 10px;
-  font-size: 18px;
-  font-family:Montserrat,sans-serif;
-}
-
-main article.grid section p {
-  margin-top: 5px;
-  font-size: 14px;
-  font-family:comme; 
-}
-
-main article.grid section a {
- display:inline-block;
-  margin-top: 5px;
-  padding: 5px 5px;
-  font-size: 14px;
-  color:#111111;
-  background-color:#E07A5F;
-  text-decoration:wavy;
-  border-radius: 8px;
-}
-
-main article.grid section a:hover {
-  background-color:#E07A5F;
-}
-
-
-
-.list {
-	display: flex;
-	flex-direction: column;
-}
-
-.list h2{
-  font-size: 1em;
-}
-
-.list section {
-	display: flex;
-  flex-direction: column;
-	margin-top: 0;
-  margin-bottom: 0;
-	padding: 0.25rem;
-  font-size: small;
-  height: fit-content;
-  border: none;
-  align-items: center;
-  text-align: center;
-  width: 95%;
-}
-
-.list section logo {
-	display: none;
-}
-
-.list section:nth-child(odd) {
-	background-color: rgba(20, 33, 61, .5);
-}
-
-a {
-  text-decoration: none;
-  font-family: var(--paragraph-font);
-  color: var(--accent1-color);
-}
-
-.grid a {
-  font-size: .7rem;
-}*/
-
-/**************************************/
-main{
+main .directory{
   background-color: #10100f;
 }
 business .directory {
   display: flex;
   justify-content: center;
   margin-top: 1rem;
-  width: 80%;
-  height: 30px;
+  width: 150%;
+  height: 40px;
 	margin: 1rem auto;
-	padding: 0.5rem;
+	padding: 2rem;
 }
 
 button#grid , button#list{
@@ -701,8 +588,8 @@ button#grid , button#list{
   align-items: center;
   justify-content: center;
   margin-right: 3em;
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 100px;
   border-color:#E07A5F;
 }
 
@@ -721,7 +608,7 @@ button#grid logo, button#list logo {
 
 div.grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 div.grid section {
@@ -729,11 +616,11 @@ div.grid section {
   flex-direction: column;
   margin: 2rem;
   background-color:#F4F1DE;
-  box-shadow: 8px 5px 10px #10100f;
+  box-shadow: 4px 4px 4px #10100f;
   transition: transform 0.5s;
   align-items: center;
-  justify-content: center;
-  text-align: center;
+  justify-content:space-around;
+  text-align:center;
   border:#111111;
 
 }
@@ -743,10 +630,10 @@ div.grid section:hover {
 }
 
 div.grid logo {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   max-width: 10%;
   /*max-height: 40%;*/
-  object-fit:contain;
+  object-fit:none;
 }
 
 div.grid h2 {
@@ -760,7 +647,7 @@ div.grid p {
 .directory {
   margin-bottom: 3em;
 }
-
+/**** style List*/
 .list {
 	display:block;
 
@@ -768,19 +655,20 @@ div.grid p {
 }
 
 .list h2{
-  font-size: 1em;
+  font-size: .1em;
 }
 
 .list section {
 	display: flex;
-  flex-direction: column;
+  /*flex-direction: column;*/
 	margin-top: .5rem;
+  
   margin-bottom: .5rem;
 	padding: 0.20rem;
-  font-size: small;
-  height:min-content;
+  font-size:medium;
+  height:fit-content;
   border:#10100f;
-  align-items: center;
+  align-items:flex-end;
   text-align: center;
  /* width:100%;*/
 }
@@ -796,10 +684,84 @@ div.grid p {
 
 a {
   text-decoration: none;
-  font-family:Georgia, 'Times New Roman', Times, serif;
-  color:#111111;
+  font-family:Cambria, Cochin;
+  color:#090f7c;
 }
 
 .grid a {
   font-size: .7rem;
 }
+ 
+/*----------------------CONTACT PAGE ------------ */
+
+
+/* Common styles for all screen sizes */
+
+body contact {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 20px;
+}
+
+main contact {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 contact{
+  color:#F4F1DE;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+hr {
+  border: none;
+  border-top: 1px solid #E07A5F;
+  margin-bottom: 20px;
+}
+
+p thankyoucard {
+  color:#F4F1DE;
+  margin-bottom: 10px;
+}
+
+.information {
+  color: #888;
+}
+
+/* Styles for small screens */
+@media only screen and (max-width: 480px) {
+  main contac {
+    padding: 10px;
+  }
+  
+  h2 {
+    font-size: 24px;
+  }
+  
+  p {
+    font-size: 14px;
+  }
+  
+  label {
+    font-size: 12px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="phone number"],
+  textarea {
+    font-size: 14px;
+  }
+  
+  button[type="submit"] {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
+

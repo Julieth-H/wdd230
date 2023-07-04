@@ -147,3 +147,51 @@
 }
 
   /*-------join------*/
+
+
+
+
+
+
+
+
+  /****contact*/
+
+  /* Styles for medium screens */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+   main contac {
+     padding: 20px;
+   }
+   
+   h2 {
+     font-size: 28px;
+   }
+   
+   p {
+     font-size: 16px;
+   }
+   
+   label {
+     font-size: 14px;
+   }
+   
+   input[type="text"],
+   input[type="email"],
+   input[type="phone number"],
+   textarea {
+     font-size: 16px;
+   }
+   
+   button[type="submit"] {
+     font-size: 16px;
+     padding: 10px 20px;
+   }
+ }
+ 
+ 
+   button[type="submit"] {
+     font-size: 18px;
+     padding: 12px 24px;
+   }
+ 
+ 
