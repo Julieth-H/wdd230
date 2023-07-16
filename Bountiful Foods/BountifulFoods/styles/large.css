@@ -1,0 +1,41 @@
+@media screen and (min-width: 1200px) {
+    .container {
+      padding: 20px;
+    }
+  
+    .logo {
+      height:100px;
+    
+    }
+    
+  
+    h1 {
+      font-size: 32px;
+    }
+  
+    .button {
+      padding: 12px 20px;
+    }
+
+
+  
+    #home-elements-2 {
+      flex-direction: row;
+    }
+  
+    #nav-container {
+      justify-content: center;
+    }
+  
+    #nav-container ul {
+      flex-direction: row;
+    }
+  
+    #nav-container li {
+      width: auto;
+    }
+
+    nav button {
+        display: none;
+    }
+}
