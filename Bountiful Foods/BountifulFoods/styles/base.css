@@ -1,6 +1,8 @@
 /* Global Styles */
 
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Montserrat:wght@300;400&display=swap');
+
+
 :root {
     --primary-color: #449C47 ;
     --secondary-color: #BADB94;
@@ -8,6 +10,7 @@
     --accent2-color:#E0E0E0;
     --accent3-color:#333333;
 }
+
 body {
     max-width: 1400px;
     margin: 0 auto;
@@ -40,7 +43,8 @@ body {
   }
 /*-----------LOGO---------*/
    logo {
-    width: 250px;
+    width: 50px;
+    display:float ;
     
      
      }
@@ -354,9 +358,6 @@ body {
     list-style-type: none;
     margin: 0;
     padding: 0;
-  
-  
-  
   
   }
   

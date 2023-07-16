@@ -1,4 +1,6 @@
-@media screen and (min-width: 1200px) {
+@media only screen and (min-width: 1200px) {
+  body {
+/*@media screen and (min-width: 1200px) {*/
     .container {
       padding: 20px;
     }
@@ -38,4 +40,5 @@
     nav button {
         display: none;
     }
+}
 }
