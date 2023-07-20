@@ -3,9 +3,10 @@
       padding: 15px;
     }
   
-    .logo img {
-      height: 75px;
-    }
+    /* Adjust the logo size for medium screens */
+.logo {
+  max-width: 80%;
+}
   
     h1 {
       font-size: 28px;

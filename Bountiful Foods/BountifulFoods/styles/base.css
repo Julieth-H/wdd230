@@ -29,12 +29,12 @@
        align-items: center;
      }
  
-     home-elements-2.logo {
+      home-elements-2.logo {
        max-width: 150px;
        height: auto;
-     }
+     } 
  
-
+/* Styles for the logo */
 
     /*  nav ul {
        list-style-type: none;
@@ -489,7 +489,7 @@
 /* Base styles (already provided in base.css) */
 /* Large View (Desktops and Large Screens) */
 @media screen and (min-width: 992px) {
-  /* Add your styles for large view here */
+  
 
   header h2,
   main h2 {
@@ -521,6 +521,108 @@
 
   #fruit-selector div {
     flex: 0 0 calc(25% - 20px);
+  }
+}
+
+
+
+
+
+/*********ABOUT US*******/
+
+
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+h2 {
+  margin-top: 20px;
+  font-family:Montserrat;
+  font-size: large;
+  background-color: #f5928d;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Styles for sections */
+#aboutus,
+#about,
+#menu,
+#contact {
+  padding: 30px;
+}
+
+#aboutus img,
+#about img,
+#contact img {
+  width: 100%;
+  max-width: 500px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 20px;
+  background-color:lightgrey ;
+}
+
+#aboutus h2,
+#about h2,
+#menu h2,
+#contact h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+#aboutus p,
+#about p,
+#menu p,
+#contact p {
+  margin-bottom: 15px;
+  font-family: Acme;
+  font-size: medium;
+}
+
+#menu ul {
+  list-style-type: disc;
+  padding-left: 30px;
+}
+
+#menu li {
+  margin-bottom: 10px;
+}
+
+/* Additional styles for the contact section */
+#contact ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#contact li {
+  margin-bottom: 5px;
+}
+
+/* Media queries for responsive design */
+@media (max-width: 767px) {
+  #about img,
+  #contact img {
+    max-width: 300px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .container {
+    padding: 10px;
   }
 }
 
