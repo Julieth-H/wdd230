@@ -17,9 +17,7 @@
   <body>
     
     <header>
-        <!-- <nav class="navbar">
-             <button id="hamburgerBtn"><span>&#9776;</span></button>
-     -->
+       
      <div id="home-elements-1">
         <div id="home-elements-2">
         <div><img src="images/Fruit store logo.png"alt="logo" class="logo"></div>
@@ -28,10 +26,8 @@
                 <nav>
                     <button id="menubtn"><span>&#9776;</span></button>
                     <ul>
+            
 
-        <!-- <div class="logo">
-      <img class=logo src="images/Fruit Store Logo.png"alt="logo">
-         -->
       
         <li><a href="index.html">Home</a></li>
         <li><a href="fresh.html">Fresh</a></li>
@@ -41,49 +37,58 @@
 </div>
   
     </header>  
-       
 
-     <main id ="hero-area">
-       <div class="hero-text">
-        
-            <h1>100% natural fruit, drinks & produce <br> We work directly with farmers in the area to source the freshest fruits and produce</h1>
-            <p>We believe in the benefits of healthy eating and strive to bring the best of organic bounty to our customers</p>
-          <picture>
-            <source srcset="images/fruits1 large.jpg" media="(min-width: 1200px)">
-            <source srcset="images/fruits1 medium.jpg" media="(min-width: 900px)">
-            <source srcset="images/fruits1 small.jpg">
-            <img src="images/fruits1.jpg" alt="hero">
-          </picture> 
-
-           <div id="hero-welcome">
-            <h1>Welcome to Carlsbad CAlifornia t Bountiful Foods</h1>
-        </div>
-        
-        <!-- <div id="home-main-area"> -->
-            
-
+    <main>
+      <section id="home">
+        <img src="images/fruits1.jpg" alt="fruits">
+        <h2>Welcome to Bountiful Foods</h2>
+        <p>Discover fresh and healthy food options made with organic, locally sourced ingredients. Enjoy our specialty fruit drinks and explore our selection of produce.</p>
+        <a href="fresh.html" class="cta">Make Your Own Fruit Drink</a>
+      </section>
     
-            <div id="area">
-                <picture>
-                    <source srcset="images/southern beach large.webp" media="(min-width: 1200px)">
-                    <source srcset="images/southern beach medium.webp" media="(min-width: 900px)">
-                    <source srcset="images/southern beach small.webp">
-                    <img src="images/southern beach.webp" alt="area">    
-                </picture>
+      <section class="menu" id="menu">
+        <h2 class="heading">Order for Your<span> Fresh Fruit </span>Mix</h2>
+        <div class="box-container">
+          <div class="box">
+            <picture><img src="images/placeholder.png" data-src="images/fresh_fruit.jpeg" alt="strawberries"></picture>
+            <h3>Make your fresh fruit mix</h3>
+            <a href="fresh.html" class="btn">Get started!</a>
+          </div>
+          <div class="box">
+            <picture><img src="images/placeholder.png" data-src="images/fresh_fruit2.jpeg" alt="mixed fruits"></picture>
+            <h3>Make your fresh fruit mix</h3>
+            <a href="fresh.html" class="btn">Get started!</a>
+          </div>
+          <div class="box">
+            <picture><img src="images/placeholder.png" data-src="images/fresh_fruit3.jpg" alt="fruits"></picture>
+            <h3>Make your fresh fruit mix</h3>
+            <a href="fresh.html" class="btn">Get started!</a>
+          </div>
+          <div class="box">
+            <picture><img src="images/placeholder.png" data-src="images/fresh_fruit4.jpg" alt="mixed fruits"></picture>
+            <h3>Make your fresh fruit mix</h3>
+            <a href="fresh.html" class="btn">Get started!</a>
+          </div>
+          <div class="box">
+            <picture><img src="images/placeholder.png" data-src="images/fresh_fruit5.jpg" alt="mixed fruits"></picture>
+            <h3>Make your fresh fruit mix</h3>
+            <a href="fresh.html" class="btn">Get started!</a>
+          </div>
+          <div class="box">
+            <picture><img src="images/placeholder.png" data-src="images/fresh_fruit6.jpg" alt="mixed fruits"></picture>
+            <h3>Make your fresh fruit mix</h3>
+            <a href="fresh.html" class="btn">Get started!</a>
+          </div>
+        </div>
+      </section>
+      <p id="drinkTotal"></p>
+  
+      <div class="specialtyDrinks">
+        <h2>Total Specialty Drinks Submitted</h2>
+        <p class="drinkCount">0</p>
+      </div>
 
-            <h1>
-              <strong> About our Southern California coast</strong>
-            </h1>
-            <p>
-                The California South Coast region extends from Ventura County to the Mexican Border and includes the counties of Los Angeles, 
-                Orange and San Diego. It is known for its sandy beaches, surf-able waves, moderate climate, and large and diverse population. 
-                The region is defined by the coastal plains of several major rivers and is bounded by the Transverse Mountain Ranges that include the Santa Monica and Santa Susana Mountains.</p>
-             <p>
-                The south coast of California has extremely high levels of species diversity, 
-                many of which are unique to the region, and the greatest number of threatened and endangered species in the state. 
-                The Southern California Bight stretches for about 692 km (430 mi) along the Pacific coast of North America, of which about 456 km (283 mi) is located within the United States and 236 km (147 mi) is located within Mexico. 
-                The rough midpoint of the bight is located about 8 km (5.0 mi) southeast of San Clemente in San Onofre State Beach. 
-            </p>
+
 
             <div id="weather-container">
                 <h2>Weather Information</h2>
@@ -94,21 +99,7 @@
                 <h3>3-Day Forecast</h3>
                 <ul id="forecast"></ul>
               </div>
-
-
-            <h1 id="submitted-drinks-count">-</h1>
-            <div id="make">
-                <h2><strong>Make your own fruit drink mix</strong></h2>
-
-           <p> Welcome to Bountiful Foods Where you can create your own fruit drink. 
-            Natural juices made from natural fruits are an important nutritional contribution due to the properties that fruits and/or vegetables have, 
-            it is an important healthy contribution. Here we offer you a huge variety of recipes for drinks, YOU WILL HAVE IT READY IN MINUTES!
-         </p>
-
-       <p id="calltoaction">Customize your drink with our organic and fresh fruits!</p>
-       <a href="/fresh.html">Start Now</a>
-      
-
+        </main>
 <footer>
     <div id="footer-elements-1">
         <div id="footer-elements-2">
@@ -120,7 +111,8 @@
         </div>     
    <div id="information">
    <p id="info">&copy;Bountiful Foods  2023 - Julieth Hernandez - WDD 230</p>
-   <p id="lastModified"></p>
+   <p>Last Updated: <span id="modify"></span></p>
+  
    </div>
     
    
@@ -136,7 +128,9 @@
 </footer>
  
    <script src="js/Bountifulweather.js"></script>
-  
+  <script src="js/bountifulhome.js"></script>
+  <script src="js/drinktotal.js"></script>
+  <script src="js/updated.js"></script>
    
  </body>
 </html>

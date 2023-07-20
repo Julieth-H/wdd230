@@ -5,66 +5,124 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bountiful Foods</title>
-    <link rel="stylesheet" href="/BountifulFoods/styles/base.css">
-    <link rel="stylesheet" href="/BountifulFoods/styles/medium.css">
-    <link rel="stylesheet" href="/BountifulFoods/styles/large.css">
+    <meta name="Julieth Hernandez">
+
+    <link rel="stylesheet" href="BountifulFoods/styles/base.css">
+    <link rel="stylesheet" href="BountifulFoods/styles/medium.css">
+    <link rel="stylesheet" href="BountifulFoods/styles/large.css">
+    <link rel="stylesheet" href="BountifulFoods/styles/normalize">
     <link rel="icon"href="images/favicon.ico">
   </head>
   <body>
-     <div id="content">
-    
-    <header>
-        <div class="logo-box">
-      <img class=logo src="images/Fruit Store Logo.png"alt="logo">
-        
+     <header>
+
+      <div id="home-elements-1">
+        <div id="home-elements-2">
+         <div><img src="images/Fruit Store Logo.png"alt="logo" class="logo"></div>
+        </div>
       </div>
-      <div id="currentYear"></div> 
-      <div id="toggle-box">
-          <span id="open-btn" class="btn-block" onclick="openMenu()"></span>
-        
-      </div>
-         
-          <nav>
-          <button id="hamburgerBtn"><span id="menu-btn" class="box">Menu</span>&#9776;</button>
-  
-           <ul id="Nav">
-                  
+      <div id="nav-container">
+        <nav>
+            <button id="menubtn"><span>&#9776;</span></button>
+           
+             
      <nav>
         <ul>
           <li><a href="index.html">Home</a></li>
            <li><a href="fresh.html">Fresh</a></li>
           <li><a href="aboutus.html">About Us</a></li>
         </ul>
+     </nav>
+      </div>
+    </header>
 
+    <main class="fresh-main">
+      <h2>Welcome to Bountiful Foods  </h2>
+    <section id="home">
+      <img src="images/naranja.jpg" alt="images">
+      <h2> Ask about the fruit of the season </h2>
+      <p>Discover fresh and healthy food options made with organic, locally sourced ingredients. Enjoy our specialty fruit drinks and explore our selection of produce.</p>
+      <a href="fresh.html" class="cta">Make Your Own Fruit Drink</a>
+    </section>
 
+  </header>
+
+  <section id="fresh">
+    <h2>Build Your Own Specialty Drink</h2>
+    <form id="fruitMixForm">
+      <div>
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" required>
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+      </div>
+      <div id="fruit-selector">
+        <div>
+          <label for="fruit1">Fruit 1:</label>
+          <select id="fruit1" name="fruit1" required>
+            <!-- Fruit options will be dynamically populated using JavaScript -->
+          </select>
+        </div>
+        
+        <div>
+          <label for="fruit2">Fruit 2:</label>
+          <select id="fruit2" name="fruit2" required>
+            <!-- Fruit options will be dynamically populated using JavaScript -->
+          </select>
+          
+        </div>
+        <div>
+          <label for="fruit3">Fruit 3:</label>
+          <select id="fruit3" name="fruit3" required>
+            <!-- Fruit options will be dynamically populated using JavaScript -->
+          </select>
+          
+        </div>
+      </div>
+      <div>
+        <label for="specialInstructions">Special Instructions:</label>
+        <textarea id="specialInstructions" name="specialInstructions"></textarea>
+      </div>
+      <button type="submit" id="submitBtn">Submit</button>
+      <h2>Thank you</h2>
+      <div id="output"></div>
+    </form>
 
 
 
         <footer>
-            <nav>
-               <ul>
-           
-          
-                    
-                </ul> </nav>    
-           <p id="info">&copy;Bountiful Foods  2023 - Julieth Hernandez - WDD 230</p>
-           
-           
-            
-           
-            <div class="social">       
-                <a href="https://www.facebook.com/index.php?next=https%3A%2F%2Fwww.facebook.com%2Fsettings" target="_blank">
-                    <img src="images/facebook icon.jpeg" alt="facebook icon"></a>
-                    <a href="https://www.instagram.com/" target="_blank">
-                    <img src="images/instagram icon.jpeg" alt="instagram icon"></a>   
-                    <a href="https://www.whatsapp.com/" target="_blank">    
-                    <img src="images/whatsapp icon.png" alt="whatsapp icon"></a>      
-           </div>
-         
-        </footer>
-         
-           <script src="js/BountifulFoods.js"></script>
-          
+             
+        <div id="footer-elements-1">
+          <div id="footer-elements-2">
+              <div><img src="images/Fruit store logo.png"alt="logo" class="logo"></div>
+              <div id="footer-contact">
+              </div>
+              <div id="footer-map"><a class="map" href="https://www.google.com/maps/place/Carlsbad,+California/@33.1215,-117.3578422,12z/data=!3m1!4b1!4m6!3m5!1s0x80dc73453f3bee59:0xa4cb5592fcf65d2f!8m2!3d33.1580933!4d-117.3505939!16zL20vMHI0d24?entry=ttu" target="_blank">📌 Location</a><p>Carlsbad, CA 92013.</p></div>
+          </div>     
+     <div id="information">
+     <p id="info">&copy;Bountiful Foods  2023 - Julieth Hernandez - WDD 230</p>
+     <p>Last Updated: <span id="modify"></span></p>
+     </div>
+
+     <div class="social">       
+      <a href="https://www.facebook.com/index.php?next=https%3A%2F%2Fwww.facebook.com%2Fsettings" target="_blank">
+          <img src="images/facebook icon.jpeg" alt="facebook icon"></a>
+          <a href="https://www.instagram.com/" target="_blank">
+          <img src="images/instagram icon.jpeg" alt="instagram icon"></a>   
+          <a href="https://www.whatsapp.com/" target="_blank">    
+          <img src="images/whatsapp icon.png" alt="whatsapp icon"></a>      
+ </div>
+
+</footer>
+           <script src="js/fresh.js"></script>
+           <script src="js/bountifulhome.js"></script>
+           <script src="js/updated.js"></script>
            
          </body>
         </html>
